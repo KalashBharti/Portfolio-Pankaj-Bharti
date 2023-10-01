@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/Portfolio-Pankaj-Bharti/static/css/main.53d35258.css",
+    "main.js": "/Portfolio-Pankaj-Bharti/static/js/main.ea09d393.js",
+    "static/js/787.1ed0c42c.chunk.js": "/Portfolio-Pankaj-Bharti/static/js/787.1ed0c42c.chunk.js",
+    "static/media/profilePic.png": "/Portfolio-Pankaj-Bharti/static/media/profilePic.329e3e9d6400ea368090.png",
+    "static/media/coreldraw.png": "/Portfolio-Pankaj-Bharti/static/media/coreldraw.af5370dc4b5ab7fabd1e.png",
+    "static/media/IMac_svg.svg": "/Portfolio-Pankaj-Bharti/static/media/IMac_svg.190894d366a5c7d591f18bfff8e12281.svg",
+    "index.html": "/Portfolio-Pankaj-Bharti/index.html",
+    "main.53d35258.css.map": "/Portfolio-Pankaj-Bharti/static/css/main.53d35258.css.map",
+    "main.ea09d393.js.map": "/Portfolio-Pankaj-Bharti/static/js/main.ea09d393.js.map",
+    "787.1ed0c42c.chunk.js.map": "/Portfolio-Pankaj-Bharti/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.53d35258.css",
+    "static/js/main.ea09d393.js"
+  ]
+}
