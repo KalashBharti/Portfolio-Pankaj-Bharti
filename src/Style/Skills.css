@@ -1,5 +1,5 @@
 .skills-container{
-    height: 100vh;
+    height: fit-content;
     margin-top: 3rem;
     /* padding: 2rem; */
     display: flex;

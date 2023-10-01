@@ -9,18 +9,18 @@ export default function Navbar() {
     return (
 
         <div>
-            <nav className={showMenu?"navbar navbar-back-blur":'navbar'}>
+            <nav className={showMenu?"navbar-container navbar-back-blur":'navbar-container'}>
                 <div className='hamburger'>
                     <i  className="ri-menu-line " onClick={toggleMenu} ></i></div>
                 <div className={showMenu ? 'nav-right' : 'nav-right menu-hide'}>
                     <div className='icon-list '>
-                        <div className="icon"><i className="ri-home-fill"></i>
+                        <div className="icon-box"><i className="ri-home-fill"></i>
                             <label>home</label></div>
-                        <div className="icon"><i className="ri-chat-smile-2-fill"></i>
+                        <div className="icon-box"><i className="ri-chat-smile-2-fill"></i>
                             <label>about us</label></div>
-                        <div className="icon"><i className="ri-service-fill"></i>
+                        <div className="icon-box"><i className="ri-service-fill"></i>
                             <label>service</label></div>
-                        <div className="icon"><i className="ri-mail-fill"></i>
+                        <div className="icon-box"><i className="ri-mail-fill"></i>
                             <label>contact us</label></div>
 
 

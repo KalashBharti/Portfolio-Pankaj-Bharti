@@ -1,0 +1,44 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@100;400&display=swap');
+
+.service-container{
+    /* background-color: aqua; */
+    padding: 1rem 7rem;
+   height: 100vh;
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+.services-label{
+    font-size: 3rem;
+    font-weight: bold;
+   
+    
+}
+
+.service-box{
+    /* height: 15rem;
+    width:  20rem; */
+    /* background-color: aquamarine; */
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+    text-align: start;
+   
+}
+
+.service-box .heading{
+    color: red;
+    font-weight: 500;
+    width: fit-content;
+    font-size: 1.7rem;
+    border-bottom: 2px solid red;
+    margin-bottom: 0.7rem;
+}
+.service-box .description{
+    font-size: 1.1rem;
+    font-family: 'Archivo', sans-serif;
+    padding: 0.2rem;
+
+}

@@ -2,7 +2,8 @@ import Navbar from "./Components/Navbar"
 import './App.css';
 import HomeWal from "./Components/HomeWal";
 import Skills from "./Components/Skills";
-import Platform from "./Components/Platform";
+import Services from "./Components/Services";
+
 
 function App() {
   return (
@@ -10,7 +11,7 @@ function App() {
      <Navbar/>
     <HomeWal/>
     <Skills/>
-    {/* <Platform/> */}
+    <Services/>
     </div>
   );
 }
