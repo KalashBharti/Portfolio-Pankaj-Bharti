@@ -1,0 +1,54 @@
+.skills-container{
+    height: 100vh;
+    margin-top: 3rem;
+    /* padding: 2rem; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* background-color: rgba(255, 249, 242, 0.76); */
+    /* border-bottom: 1px dashed brown; */
+    /* gap: 1rem; */
+
+}
+
+.skill{
+    display: flex;
+    align-items: center;
+    /* padding: 2rem; */
+    gap: 1rem;
+    /* background-color: aquamarine; */
+    font-family: 'AR One Sans', sans-serif;
+}
+.skill-left{
+    margin-right: 15rem;
+}
+.skill-right{
+    margin-left: 15rem;
+}
+/* 
+.skill-img{
+    height: inherit;
+} */
+.skill-img img{
+    height: 8.5rem;
+}
+.skill-description{
+    align-items: end;
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+
+ .Skills-label{
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+
+    /* text-shadow: 0 1px 0 rgba(255, 255, 255, 0.4); */
+    
+} 
+
+.skill-experience{
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: red;
+}

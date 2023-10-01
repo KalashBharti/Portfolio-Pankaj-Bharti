@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Francois+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=AR+One+Sans&display=swap');
+.walBack{
+    
+    height: 100vh;
+  
+    display: flex;
+    flex-direction: row;
+}
+.walLeft{
+    /* background-color: blue; */
+    width: 50%;
+    height: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+.walRight{
+    /* background-color: chocolate; */
+    width: 50%;
+    height: inherit;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+}
+.walRight img{
+    max-height: 90vh;
+    width: auto;
+}
+.walLeft-label{
+    height: 25rem;
+    width: 27rem;
+    margin-top: 3rem;
+    /* background-color: pink; */
+    font-size: 5rem;
+}
+.walLeft-label label{
+    /* width: 100%; */
+    display: block;
+    text-align: start;
+    font-family: 'Francois One', sans-serif;
+    
+}
+
+.walLeft-label #secondName{
+    text-align: end;
+    margin-right: 1rem;
+}
+
+
+#skills{
+    font-size: 1.6rem;
+    color: red;
+    font-weight: 500;
+    font-family: 'AR One Sans', sans-serif;
+}

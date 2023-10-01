@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Mooli&display=swap');
+
+.navbar{
+    z-index: 2;
+    position: fixed;
+    padding-top: 0.7rem;
+    padding-bottom: 0.7rem;
+    /* background-color: white; */
+
+    top: 0;
+    /* height: 10rem; */
+    width: 100vw;
+
+   transition: all ease-in-out 500ms;
+    /* box-sizing: border-box; */
+    display: flex;
+}
+.navbar-back-blur{
+    background-color: rgba(255, 255, 255, 0.896);
+    border-bottom: 1px solid red;
+    backdrop-filter: blur(1px);
+}
+.hamburger{
+    width: 10rem;
+    font-size: 3.2rem;
+    font-weight: bolder;
+    color: brown;
+    text-align: center;
+}
+.hamburger i{
+    background-color: rgb(255, 255, 255);
+}
+.hamburger i:hover{
+    color: rgb(213, 158, 158);
+
+}
+
+.nav-right{
+    /* background-color: red; */
+    width: -webkit-fill-available;
+    display: flex;
+    flex-direction: row-reverse;
+    margin: auto;
+    padding-right: 4rem;
+    font-size: 2rem;
+    transition: all ease-in-out 0.8s;
+}
+.menu-hide{
+    transform: translateX(-150%);
+    opacity: 0;
+    filter: blur(5px);
+    font-size: 0.4rem;
+    /* filter: opacity(0); */
+
+}
+
+.icon-list{
+    display: flex;
+    gap: 4rem;
+    width: fit-content;
+}
+.icon{
+    display: grid;
+    text-align: center;
+}
+.icon label{
+    font-size: 0.9rem;
+    font-family: 'Mooli', sans-serif;
+}
+.icon:hover{
+    color: brown;
+}
