@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/Portfolio-Pankaj-Bharti/static/css/main.7d3987ff.css",
-    "main.js": "/Portfolio-Pankaj-Bharti/static/js/main.c263b394.js",
+    "main.css": "/Portfolio-Pankaj-Bharti/static/css/main.f3b0a5e5.css",
+    "main.js": "/Portfolio-Pankaj-Bharti/static/js/main.bedb1503.js",
     "static/js/787.1ed0c42c.chunk.js": "/Portfolio-Pankaj-Bharti/static/js/787.1ed0c42c.chunk.js",
     "static/media/profilePic.png": "/Portfolio-Pankaj-Bharti/static/media/profilePic.329e3e9d6400ea368090.png",
     "static/media/coreldraw.png": "/Portfolio-Pankaj-Bharti/static/media/coreldraw.af5370dc4b5ab7fabd1e.png",
     "index.html": "/Portfolio-Pankaj-Bharti/index.html",
-    "main.7d3987ff.css.map": "/Portfolio-Pankaj-Bharti/static/css/main.7d3987ff.css.map",
-    "main.c263b394.js.map": "/Portfolio-Pankaj-Bharti/static/js/main.c263b394.js.map",
+    "main.f3b0a5e5.css.map": "/Portfolio-Pankaj-Bharti/static/css/main.f3b0a5e5.css.map",
+    "main.bedb1503.js.map": "/Portfolio-Pankaj-Bharti/static/js/main.bedb1503.js.map",
     "787.1ed0c42c.chunk.js.map": "/Portfolio-Pankaj-Bharti/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7d3987ff.css",
-    "static/js/main.c263b394.js"
+    "static/css/main.f3b0a5e5.css",
+    "static/js/main.bedb1503.js"
   ]
 }
