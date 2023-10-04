@@ -1,18 +1,27 @@
 import Navbar from "./Components/Navbar"
 import './App.css';
-import HomeWal from "./Components/HomeWal";
-import Skills from "./Components/Skills";
-import Services from "./Components/Services";
+import Home from "./Components/Home";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import ContackUs from "./Components/ContactUs";
 
 
 function App() {
   return (
-    <div className="App">
-     <Navbar/>
-    <HomeWal/>
-    <Skills/>
-    <Services/>
-    </div>
+    <Router>
+      <div className="App">
+        <Navbar />
+        <Routes>
+          <Route exact path="/" element={
+            <Home />
+          } />
+          <Route exact path="/contactUs" element={
+            <ContackUs />
+          } />
+        </Routes>
+
+      </div>
+
+    </Router>
   );
 }
 
