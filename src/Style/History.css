@@ -1,0 +1,22 @@
+.history{
+    height: 100vh;
+    /* width: 100vw; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.slider-body{
+    height: 30rem;
+    width: 100vw;
+    background-color: aqua;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#slider{
+    max-height: 50rem;
+    max-width: 40rem;
+}

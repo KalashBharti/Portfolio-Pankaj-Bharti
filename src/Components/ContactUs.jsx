@@ -7,7 +7,7 @@ export default function ContackUs() {
 
     <div className='contact-container'>
       <div className='form-background'>
-        <label className='contact-label'>Conctact Us</label>
+        <label className='component-label'>Conctact Us</label>
         <label className='contact-label-message'>Have a question or just want to say hi? Please don't hesitate we love to hear from you.</label>
       </div>
       <div className="form-container">
@@ -44,7 +44,7 @@ export default function ContackUs() {
             </div>
            
           </div>
-        <Button className='mt-5' variant="contained">Contained</Button>
+        <Button className='mt-5' variant="contained">Send Message</Button>
         </div>
       </div>
     </div>

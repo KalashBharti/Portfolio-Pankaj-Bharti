@@ -1,0 +1,36 @@
+.aboutus{
+    margin-top: 5rem;
+    height: fit-content;
+    width: 100%;
+    
+}
+.aboutus-comp1{
+    width: inherit;
+    display: flex;
+    flex-direction: row;
+}
+
+.aboutus-comp1 .description{
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.aboutus-comp1 img{
+    width: 35rem;
+    margin: 2rem;
+}
+
+.aboutus label{
+    
+    font-family: 'Archivo', sans-serif;
+}
+
+.aboutus-comp2{
+    width: 100%;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}

@@ -3,8 +3,9 @@
 
 .service-container{
     /* background-color: aqua; */
+    margin-top: 2rem;
     padding: 1rem 7rem;
-   height: 100vh;
+   height: fit-content;
     display: flex;
     flex-direction: column;
     

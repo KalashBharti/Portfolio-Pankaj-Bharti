@@ -16,17 +16,19 @@ export default function Navbar() {
                     <i  className="ri-menu-line " onClick={toggleMenu} ></i></div>
                 <div className={showMenu ? 'nav-right' : 'nav-right menu-hide'}>
                     <div className='icon-list '>
-                    <Link className='nav-link ' aria-current="page" to='/'>
+                    <Link className='nav-link ' aria-current="page" to='/Portfolio-Pankaj-Bharti'>
                         <div className="icon-box">
                             <i className="ri-home-fill"></i>
                             <label>home</label>
                             </div>
                             </Link>
+                            <Link className='nav-link ' aria-current="page" to='Portfolio-Pankaj-Bharti/aboutUs'>
                         <div className="icon-box"><i className="ri-chat-smile-2-fill"></i>
                             <label>about us</label></div>
+                                </Link>
                         <div className="icon-box"><i className="ri-service-fill"></i>
                             <label>service</label></div>
-                            <Link className='nav-link ' aria-current="page" to='/contactUs'>
+                            <Link className='nav-link ' aria-current="page" to='Portfolio-Pankaj-Bharti/contactUs'>
                         <div className="icon-box">
                             <i className="ri-mail-fill"></i>
                             <label>contact us</label>

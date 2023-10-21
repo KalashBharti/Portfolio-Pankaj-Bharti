@@ -25,12 +25,9 @@
 .skill-right{
     margin-left: 15rem;
 }
-/* 
-.skill-img{
-    height: inherit;
-} */
+
 .skill-img img{
-    height: 8.5rem;
+    height: 6rem;
 }
 .skill-description{
     align-items: end;

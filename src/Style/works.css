@@ -1,0 +1,13 @@
+.work-extra{
+ 
+    display: flex;
+    padding: 1rem;
+}
+.work-container{
+    margin-top: 5rem;
+    text-align: center;
+}
+#list-img img{
+    height: 10rem;
+    width:  13rem;
+}

@@ -1,0 +1,67 @@
+.FollowCard{
+    height: 33rem;
+    width: 20rem;
+    padding: 1rem;
+    display: flex;
+    background-color: white;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid blue; */
+    margin: 1rem;
+    border-radius: 1.5rem;
+}
+
+.card-img{
+    width: inherit;
+    height: fit-content;
+    padding: 1rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.card-img img{
+    width: 7.5rem;
+    border-radius: 10rem;
+}
+
+.card-lable{
+    font-size: 1.5rem;
+    font-family: 'AR One Sans', sans-serif;
+    font-weight: 700;
+}
+.card-profession{
+    width: 10rem;
+    text-align: center;
+    color: gray;
+}
+
+.card-location{
+    color: black;
+    margin-top: 1rem;
+    font-size: 1.2rem;
+}
+.card-buttons{
+    width: inherit;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.card-messageBtn{
+    width: -webkit-fill-available;
+    padding: 0.2rem;
+    font-size: 1.4rem;
+    border-radius: 2rem;
+    background-color: #0057ff;
+    outline: none;
+    border: none;
+    color: white;
+    margin-bottom: 2rem;
+}
+.card-buttons img{
+    width: 3rem;
+    
+}

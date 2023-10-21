@@ -4,6 +4,8 @@ import Home from "./Components/Home";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import ContackUs from "./Components/ContactUs";
 
+import AboutUs from "./Components/AboutUs";
+
 
 function App() {
   return (
@@ -11,10 +13,13 @@ function App() {
       <div className="App">
         <Navbar />
         <Routes>
-          <Route exact path="/" element={
+          <Route exact path="/Portfolio-Pankaj-Bharti" element={
             <Home />
           } />
-          <Route exact path="/contactUs" element={
+          <Route exact path="/Portfolio-Pankaj-Bharti/aboutUs" element={
+            <AboutUs />
+          } />
+          <Route exact path="/Portfolio-Pankaj-Bharti/contactUs" element={
             <ContackUs />
           } />
         </Routes>
